@@ -1,0 +1,15 @@
+[project]
+name = "agentapi"
+version = "0.1.0"
+description = "Agent IA Via FastAPI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.133.1",
+    "langchain-groq>=1.1.2",
+    "langchain-openai>=1.1.10",
+    "langgraph>=1.0.9",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+    "uvicorn>=0.41.0",
+]
